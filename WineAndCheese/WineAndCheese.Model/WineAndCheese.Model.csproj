@@ -40,7 +40,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DomainObjects\Wine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\WineService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WineAndCheese.DataAccess\WineAndCheese.DataAccess.csproj">
+      <Project>{011eeee3-9268-4942-bb59-eaa1226afd45}</Project>
+      <Name>WineAndCheese.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WineAndCheese.Interfaces\WineAndCheese.Interfaces.csproj">
+      <Project>{a6b84b7f-e88b-4406-982e-2bb5f75b6928}</Project>
+      <Name>WineAndCheese.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WineAndCheese.Repositories\WineAndCheese.Repositories.csproj">
+      <Project>{021b9132-19b9-4137-b98e-a443a13ea9d0}</Project>
+      <Name>WineAndCheese.Repositories</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
