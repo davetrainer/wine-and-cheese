@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.WebUI", "WineAndCheese.WebUI\WineAndCheese.WebUI.csproj", "{BE4DAE99-4A41-43D7-8AB2-370FB4674827}"
 EndProject
@@ -10,10 +10,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.Interfaces", "WineAndCheese.Interfaces\WineAndCheese.Interfaces.csproj", "{A6B84B7F-E88B-4406-982E-2BB5F75B6928}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.Model", "WineAndCheese.Model\WineAndCheese.Model.csproj", "{9297A877-3238-4CA7-B613-588D16C4727A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.Repositories", "WineAndCheese.Repositories\WineAndCheese.Repositories.csproj", "{4B68E980-50CD-4B01-86EF-59417FEBA9D8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.Repositories.Tests", "WineAndCheese.Repositories.Tests\WineAndCheese.Repositories.Tests.csproj", "{3251C81F-C148-415F-8B48-7EDFA4831A95}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WineAndCheese.Database", "WineAndCheese.Database\WineAndCheese.Database.sqlproj", "{71AE71D5-47A1-49E2-B53C-C8AF5AD4F33F}"
 EndProject
@@ -39,14 +35,6 @@ Global
 		{9297A877-3238-4CA7-B613-588D16C4727A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9297A877-3238-4CA7-B613-588D16C4727A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9297A877-3238-4CA7-B613-588D16C4727A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B68E980-50CD-4B01-86EF-59417FEBA9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B68E980-50CD-4B01-86EF-59417FEBA9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B68E980-50CD-4B01-86EF-59417FEBA9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B68E980-50CD-4B01-86EF-59417FEBA9D8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3251C81F-C148-415F-8B48-7EDFA4831A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3251C81F-C148-415F-8B48-7EDFA4831A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3251C81F-C148-415F-8B48-7EDFA4831A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3251C81F-C148-415F-8B48-7EDFA4831A95}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71AE71D5-47A1-49E2-B53C-C8AF5AD4F33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71AE71D5-47A1-49E2-B53C-C8AF5AD4F33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71AE71D5-47A1-49E2-B53C-C8AF5AD4F33F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
