@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ABE02035-405B-4C59-B7C9-1F42A2FE73BF}</ProjectGuid>
+    <ProjectGuid>{7ADBD65B-3037-4401-892F-28EF507B6824}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WineAndCheese.DataAccess.Tests</RootNamespace>
-    <AssemblyName>WineAndCheese.DataAccess.Tests</AssemblyName>
+    <RootNamespace>WineAndCheese.Repositories.Tests</RootNamespace>
+    <AssemblyName>WineAndCheese.Repositories.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,12 +50,17 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="WineRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WineAndCheese.DataAccess\WineAndCheese.DataAccess.csproj">
       <Project>{011eeee3-9268-4942-bb59-eaa1226afd45}</Project>
       <Name>WineAndCheese.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WineAndCheese.Repositories\WineAndCheese.Repositories.csproj">
+      <Project>{021b9132-19b9-4137-b98e-a443a13ea9d0}</Project>
+      <Name>WineAndCheese.Repositories</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

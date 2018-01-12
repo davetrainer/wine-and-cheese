@@ -15,9 +15,9 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WineAndCheese.Database", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.DataAccess", "WineAndCheese.DataAccess\WineAndCheese.DataAccess.csproj", "{011EEEE3-9268-4942-BB59-EAA1226AFD45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.DataAccess.Tests", "WineAndCheese.DataAccess.Tests\WineAndCheese.DataAccess.Tests.csproj", "{ABE02035-405B-4C59-B7C9-1F42A2FE73BF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.Repositories", "WineAndCheese.Repositories\WineAndCheese.Repositories.csproj", "{021B9132-19B9-4137-B98E-A443A13EA9D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WineAndCheese.Repositories.Tests", "WineAndCheese.Repositories.Tests\WineAndCheese.Repositories.Tests.csproj", "{7ADBD65B-3037-4401-892F-28EF507B6824}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,14 +51,14 @@ Global
 		{011EEEE3-9268-4942-BB59-EAA1226AFD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{011EEEE3-9268-4942-BB59-EAA1226AFD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{011EEEE3-9268-4942-BB59-EAA1226AFD45}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABE02035-405B-4C59-B7C9-1F42A2FE73BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABE02035-405B-4C59-B7C9-1F42A2FE73BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABE02035-405B-4C59-B7C9-1F42A2FE73BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABE02035-405B-4C59-B7C9-1F42A2FE73BF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{021B9132-19B9-4137-B98E-A443A13EA9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{021B9132-19B9-4137-B98E-A443A13EA9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{021B9132-19B9-4137-B98E-A443A13EA9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{021B9132-19B9-4137-B98E-A443A13EA9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ADBD65B-3037-4401-892F-28EF507B6824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADBD65B-3037-4401-892F-28EF507B6824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADBD65B-3037-4401-892F-28EF507B6824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADBD65B-3037-4401-892F-28EF507B6824}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
